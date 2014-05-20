@@ -433,6 +433,15 @@ function create_post_type_html5()
     ));
 }
 
+// function to show home page banner using query of banner post type
+function wptutsplus_home_page_banner() {
+ 
+    // start by setting up the query
+    $query = new WP_Query( array(
+        'post_type' => 'html5-blank',
+    )); 
+}
+
 /*------------------------------------*\
 	ShortCode Functions
 \*------------------------------------*/
