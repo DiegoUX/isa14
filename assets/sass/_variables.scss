@@ -1,0 +1,37 @@
+// Custom variables
+
+// COLORS
+$darkBlue: #253544;
+$lightBlue: #47627F;
+$yellow: #FCA309;
+$aquaBlue: #38A4A6;
+$white: #FFFFFF;
+$gray: #5E5E5E;
+$darkGray: #464646;
+
+// BUTTONS
+
+.btn {
+	@include border-radius(5px);
+	padding: 5px 20px;
+	color: $white;
+	display: inline-block;
+}
+
+.btn.main-btn {
+	background: $yellow;
+}
+
+.btn.sec-btn {
+	border: 1px solid $white;
+}
+
+strong {
+	font-weight: 700;
+}
+
+// HELPERS
+.tar {text-align: right !important;}
+.tal {text-align: left !important;}
+.mt40 {margin-top: 40px !important;}
+.mb40 {margin-bottom: 40px !important;}

@@ -1,0 +1,254 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/_variables.scss */
+.btn {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+}
+
+/* line 21, ../sass/_variables.scss */
+.btn.main-btn {
+  background: #fca309;
+}
+
+/* line 25, ../sass/_variables.scss */
+.btn.sec-btn {
+  border: 1px solid white;
+}
+
+/* line 29, ../sass/_variables.scss */
+strong {
+  font-weight: 700;
+}
+
+/* line 34, ../sass/_variables.scss */
+.tar {
+  text-align: right !important;
+}
+
+/* line 35, ../sass/_variables.scss */
+.tal {
+  text-align: left !important;
+}
+
+/* line 36, ../sass/_variables.scss */
+.mt40 {
+  margin-top: 40px !important;
+}
+
+/* line 37, ../sass/_variables.scss */
+.mb40 {
+  margin-bottom: 40px !important;
+}
+
+/* line 3, ../sass/_header.scss */
+header {
+  background: white;
+  padding: 20px 0;
+}
+
+/* line 1, ../sass/_home.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 4, ../sass/_home.scss */
+body h1, body h2, body h3, body h4, body h5 {
+  color: white;
+}
+
+/* line 9, ../sass/_home.scss */
+.section {
+  padding: 60px 0;
+}
+
+/* line 13, ../sass/_home.scss */
+.billboard {
+  background: url("../../img/Background-collage.jpg") no-repeat scroll 80px 0 #253544;
+  height: 485px;
+}
+/* line 17, ../sass/_home.scss */
+.billboard h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+/* line 22, ../sass/_home.scss */
+.billboard h4 {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 10px 0;
+}
+
+/* line 29, ../sass/_home.scss */
+.description {
+  background: #47627f;
+  color: white;
+  text-align: center;
+}
+/* line 34, ../sass/_home.scss */
+.description h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+/* line 41, ../sass/_home.scss */
+.description p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* line 48, ../sass/_home.scss */
+.open-call {
+  text-align: center;
+}
+/* line 51, ../sass/_home.scss */
+.open-call h2 {
+  color: #38a4a6;
+  font-size: 46px;
+  font-weight: 300;
+}
+/* line 57, ../sass/_home.scss */
+.open-call h4 {
+  color: #47627f;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+/* line 64, ../sass/_home.scss */
+.open-call p {
+  color: #5e5e5e;
+  line-height: 22px;
+}
+
+/* line 70, ../sass/_home.scss */
+.sede {
+  background: url("../../img/Background-trama2.jpg") no-repeat scroll center center #253544;
+  height: 787px;
+}
+/* line 74, ../sass/_home.scss */
+.sede .gray-box {
+  background: none repeat scroll 0 0 #D6DADD;
+  padding: 40px;
+}
+/* line 79, ../sass/_home.scss */
+.sede h2 {
+  color: #38a4a6;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* line 86, ../sass/_home.scss */
+.sede p {
+  line-height: 28px;
+  color: #5e5e5e;
+}
+/* line 91, ../sass/_home.scss */
+.sede img {
+  margin: 30px 0;
+}
+/* line 95, ../sass/_home.scss */
+.sede a, .sede a:visited {
+  color: #47627f;
+  text-decoration: underline;
+}
+/* line 100, ../sass/_home.scss */
+.sede a:hover {
+  color: #47627f;
+  text-decoration: none;
+}
+
+/* line 106, ../sass/_home.scss */
+.sponsors {
+  background: url("../../img/Background-adoquines.jpg") no-repeat scroll center center #253544;
+  height: 484px;
+}
+/* line 110, ../sass/_home.scss */
+.sponsors h5 {
+  line-height: normal;
+  margin-bottom: 10px;
+}
+/* line 115, ../sass/_home.scss */
+.sponsors img {
+  margin: 10px;
+}
+
+/* line 121, ../sass/_home.scss */
+footer {
+  padding: 40px 0;
+  border-top: 2px solid #38a4a6;
+  font-size: 15px;
+  color: #464646;
+}
