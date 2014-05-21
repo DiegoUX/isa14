@@ -3,8 +3,15 @@
 // COLORS
 $darkBlue: #253544;
 $lightBlue: #47627F;
+
 $yellow: #FCA309;
+$darkYellow: #B67B0B;
+$lightYellow: #FFB238;
+
 $aquaBlue: #38A4A6;
+$darkAquaBlue: #2B8484;
+$lightAquaBlue: #41BDBF;
+
 $white: #FFFFFF;
 $gray: #5E5E5E;
 $darkGray: #464646;
@@ -28,24 +35,39 @@ $darkGray: #464646;
 .btn.main-btn {
 	background: $yellow;
 	color: $darkBlue;
-	-webkit-box-shadow: 0 2px #b67b0b; 
-	-moz-box-shadow: 0 2px #b67b0b; 
-	box-shadow: 0 2px #b67b0b;
+	-webkit-box-shadow: 0 2px $darkYellow; 
+	-moz-box-shadow: 0 2px $darkYellow; 
+	box-shadow: 0 2px $darkYellow;
 	border: 1px solid transparent;
+	transition: all 0.5s ease;
 }
 
-// .btn.main-btn:hover {
-// 	-webkit-box-shadow: 0 1px #b67b0b; 
-// 	-moz-box-shadow: 0 1px #b67b0b; 
-// 	box-shadow: 0 1px #b67b0b;
-// }
+.btn.main-btn:hover {
+	background: $lightYellow;
+}
 
 .btn.sec-btn {
 	border: 1px solid $white;
+	transition: all 0.5s ease;
 }
 
 .btn.sec-btn:hover {
+	color: $darkBlue;
+	background: $white;
+}
+
+.btn.contact-btn {
+	background: $aquaBlue;
 	color: $white;
+	-webkit-box-shadow: 0 2px $darkAquaBlue; 
+	-moz-box-shadow: 0 2px $darkAquaBlue; 
+	box-shadow: 0 2px $darkAquaBlue;
+	border: 1px solid transparent;
+	transition: all 0.5s ease;
+}
+
+.btn.contact-btn:hover {
+	background: $lightAquaBlue;
 }
 
 strong {
@@ -53,9 +75,13 @@ strong {
 }
 
 // HELPERS
+.dib {display: inline-block !important;}
 .tar {text-align: right !important;}
 .tal {text-align: left !important;}
+.tac {text-align: center !important;}
 .f-right {float: right !important;}
 .f-left {float: left !important;}
+.mt20 {margin-top: 20px !important;}
+.mb20 {margin-bottom: 20px !important;}
 .mt40 {margin-top: 40px !important;}
 .mb40 {margin-bottom: 40px !important;}

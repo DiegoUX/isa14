@@ -6,13 +6,30 @@ body {
 	}
 }
 
+span.ico-contact {
+	background: url("../../img/icon-contacto.svg") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: 11px;
+    margin-right: 10px;
+    width: 15px;
+}
+
+.ribbon {
+	background: url("../../img/firulete.svg") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+    height: 38px;
+    width: 97px;
+    margin: 40px 0;
+}
+
 .section {
 	padding: 60px 0;
 }
 
 .billboard {
 	background: url("../../img/Background-collage.jpg") no-repeat scroll 0 0 $darkBlue;
-	height: 485px;
+	// height: 485px;
+	background-size: cover;
 
 	h1 {
 		font-size: 42px;
@@ -55,10 +72,15 @@ body {
 .open-call {
 	text-align: center;
 
+	.featured-blk {
+		margin: 40px 0 20px;
+	}
+
 	h2 {
 		color: $aquaBlue;
 		font-size: 46px;
 		font-weight: 300;
+		margin-bottom: 20px;
 	}
 
 	h4 {
@@ -76,7 +98,8 @@ body {
 
 .sede {
 	background: url("../../img/Background-trama2.jpg") no-repeat scroll center center $darkBlue;
-	height: 787px;
+	// height: 787px;
+	background-size: cover;
 
 	.gray-box {
 	    background: none repeat scroll 0 0 #D6DADD;
@@ -112,7 +135,8 @@ body {
 
 .sponsors {
 	background: url("../../img/Background-adoquines.jpg") no-repeat scroll center center $darkBlue;
-	height: 484px;
+	// height: 484px;
+	background-size: cover;
 	
 	h5 {
 		line-height: normal;
@@ -122,7 +146,6 @@ body {
 	img {
 		margin: 10px;
 	}
-
 }
 
 footer {

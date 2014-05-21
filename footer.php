@@ -9,7 +9,7 @@
 						<!-- /copyright -->
 					</div>
 					<div class="large-7 columns">
-						<p class="tar">
+						<p class="tar right-txt">
 							Todo contenido puede ser reproducido mencionando la fuente.
 						</p>
 					</div>

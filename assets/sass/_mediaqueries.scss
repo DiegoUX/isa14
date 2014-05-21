@@ -1,0 +1,85 @@
+@media only screen and (max-width:480px) {
+	// .section {
+	// 	padding: 10px 0 !important;
+	// }
+
+	.billboard {
+		h1 {
+			font-size: 33px !important;
+		}
+
+		h4 {
+			font-size: 20px !important;
+		}
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.section {
+		padding: 20px 0 !important;
+	}
+
+	.billboard {
+		height: auto !important;
+		text-align: center !important;
+
+		.call-to {
+			text-align: center;
+			
+			a.btn {
+				float: none !important;
+				margin: 0 auto 20px;
+    			width: 300px;
+				display: block;
+			}
+		}
+	}
+
+	.description {
+		h3 {
+			line-height: 30px !important;
+		}
+	}
+
+	.open-call {
+		height: auto !important;
+		.featured-blk {
+			margin: 20px 0;
+		}
+	}
+
+	.sede {
+		height: auto !important;
+	}
+
+	.sponsors {
+		text-align: center;
+		height: auto !important;
+
+		.btn.main-btn {
+			margin-bottom: 30px;
+		}
+	}
+
+	footer {
+		text-align: center;
+		padding: 20px 0 !important;
+
+		p.copyright {
+			margin: 10px 0;
+		}
+
+		p.right-txt {
+			text-align: center !important;
+			margin: 10px 0;
+		}
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width: 970px) {
+		
+	.wrap-l7 {
+		left: 25%;
+		width: 75%;
+	}
+}
