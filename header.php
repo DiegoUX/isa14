@@ -24,7 +24,6 @@
             tests: {}
         });
         </script>
-
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -34,6 +33,20 @@
 			<!-- header -->
 			<header class="header clear" role="banner">
 				<div class="row">
+					<div class="top-link hide-for-small">
+						<div class="isa13">
+							<a href="http://isa.ixda.org/2013/">
+								<?php _e( 'Buscabas ISA 13?', 'html5blank' ); ?>
+							</a>
+						</div>
+					</div>
+					<div class="social-nav">
+							<ul>
+								<li><a href="#" class="icon-tw">Twitter</a></li>
+								<li><a href="#" class="icon-fb">Facebook</a></li>
+								<li><a href="#" class="icon-email">Contacto</a></li>
+							</ul>
+						</div>
 					<div class="large-4 columns">
 						<!-- logo -->
 						<div class="logo">
@@ -44,10 +57,15 @@
 						</div>
 						<!-- /logo -->
 					</div>
-					<div class="large-8 columns">
+					<div class="large-6 columns">
 						<!-- nav -->
 						<nav class="nav" role="navigation">
-							<?php html5blank_nav(); ?>
+							<!--<?php html5blank_nav(); ?>-->
+							<ul>
+								<li class="active"><a href="#">Español</a></li>
+								<li><a href="#">Português</a></li>
+								<li><a href="#">English</a></li>
+							</ul>
 						</nav>
 						<!-- /nav -->
 					</div>

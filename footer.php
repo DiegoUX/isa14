@@ -31,6 +31,15 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+	
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="../wp-content/themes/isa14/js/foundation.min.js"></script>
+		<script src="../wp-content/themes/isa14/js/foundation.reveal.js"></script>
+
+		<script>
+		   $(document).foundation();
+		</script>
 
 	</body>
 </html>

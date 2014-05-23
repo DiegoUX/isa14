@@ -6,12 +6,37 @@ body {
 	}
 }
 
+// Icons...
 span.ico-contact {
 	background: url("../../img/icon-contacto.svg") no-repeat scroll 0 0 transparent;
 	display: inline-block;
 	height: 11px;
     margin-right: 10px;
     width: 15px;
+}
+
+.icon-tw, .icon-fb, .icon-email {
+	display: inline-block;
+    height: 30px;
+    text-indent: -9999px;
+    width: 30px;
+    transition: all 0.5s ease;
+}
+
+.icon-tw:hover, .icon-fb:hover, .icon-email:hover {
+	opacity: 0.7;
+}
+
+.icon-tw {
+	background: url("../../img/icon-twitter.svg") no-repeat scroll 0 0 transparent;
+}
+
+.icon-fb {
+	background: url("../../img/icon-facebook.svg") no-repeat scroll 0 0 transparent;
+}
+
+.icon-email {
+	background: url("../../img/icon-email.svg") no-repeat scroll 0 0 transparent;
 }
 
 .ribbon {
@@ -70,6 +95,8 @@ span.ico-contact {
 }
 
 .open-call {
+	background: url("../../img/Background-trama.jpg") no-repeat scroll center center $darkBlue;
+	background-size: cover;
 	text-align: center;
 
 	.featured-blk {
@@ -153,4 +180,116 @@ footer {
 	border-top: 2px solid $aquaBlue;
 	font-size: 15px;
 	color: $darkGray;
+}
+
+// Contact form...
+.contact {
+	background: none repeat scroll 0 0 rgba(63, 87, 113, 0.9);
+	border: none;
+
+	br {
+		display: none;
+	}
+	
+	h2 {
+		font-size: 42px;
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+
+	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+		box-shadow: none;
+		margin: 0 0 1.5em;
+	}
+
+	textarea {
+		min-height: 100px;
+	}
+
+	.your-name input {
+		background: url("../../img/icon-nombre.svg") no-repeat scroll 8px center #FFFFFF;
+		padding-left: 30px;
+	}
+
+	.your-email input {
+		background: url("../../img/icon-mail.svg") no-repeat scroll 8px center #FFFFFF;
+		padding-left: 30px;
+	}
+
+	.your-message textarea {
+		background: url("../../img/icon-mensaje.svg") no-repeat scroll 8px 10px #FFFFFF;
+		padding-left: 30px;
+	}
+
+	input[type="submit"] {
+		@include border-radius(5px);
+		padding: 0.5em 2em;
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700;
+		background: $yellow;
+		color: $darkBlue;
+		-webkit-box-shadow: 0 2px $darkYellow; 
+		-moz-box-shadow: 0 2px $darkYellow; 
+		box-shadow: 0 2px $darkYellow;
+		border: 1px solid transparent;
+		transition: all 0.5s ease;
+		margin-left: 20px;
+	}
+
+	input[type="submit"]:hover {
+		background: $lightYellow;
+	}
+
+	// Errors...
+
+	span.wpcf7-form-control-wrap {
+		width: 100%;
+	}
+
+	span.wpcf7-not-valid-tip {
+	    color: #FF0000;
+	    display: block;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 13px;
+	    position: relative;
+	    top: -15px;
+	}
+
+	div.wpcf7-validation-errors {
+	    border: 1px solid #FFB237;
+	}
+
+	div.wpcf7-mail-sent-ok {
+		border: 1px solid #398F14;
+	}
+
+	div.wpcf7-response-output {
+		margin: 1.5em 0 1em;
+		font-size: 13px;
+		color: $white;
+		padding: 1em;
+		line-height: normal;
+	}
+
+	.contact-btns {
+		position: relative;
+		margin-top: 20px;
+		text-align: right;
+		.btn-cancel {
+		    color: #FFFFFF;
+		    text-decoration: underline;
+		}
+
+		.btn-cancel:hover {
+			text-decoration: none;
+		}
+
+		img.ajax-loader {
+			position: absolute;
+			left: 0;
+		}
+	}
+	
 }

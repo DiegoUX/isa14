@@ -2,5 +2,81 @@
 
 header {
 	background: $white;
-	padding: 20px 0;
+	padding: 30px 0;
+
+	.logo {
+		width: 241px;
+	}
+
+	.social-nav {
+		position: relative;
+		float: right;
+		top: 35px;
+		right: 15px;
+
+		ul {
+			li {
+				display: inline-block;
+				margin: 0 5px;
+			}
+		}
+	}
+
+	nav.nav {
+		text-align: right;
+		ul {
+			position: relative;
+		    right: 15px;
+		    top: 40px;	
+		    	
+			li {
+				display: inline-block;
+				margin: 0 15px;
+
+				a {
+					color: $lightGray;
+					font-size: 14px;
+				}
+
+				a:hover {
+					color: $darkBlue;
+					border-bottom: 1px solid $darkBlue;
+					padding-bottom: 5px;
+				}
+			}
+
+			li.active {
+				a {
+					color: $darkBlue;
+					border-bottom: 1px solid $darkBlue;
+					padding-bottom: 5px;
+				}
+			}
+		}
+	}
+
+	.top-link {
+		position: relative;
+		top: -30px;
+		right: 15px;
+
+		.isa13 {
+			background: $softBlue;
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 6px 20px;
+
+			a, a:visited {
+				font-size: 14px;
+				color: $darkBlue;
+				font-weight: 300;
+				line-height: normal;
+			}
+
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+	}
 }

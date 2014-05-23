@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 21, ../sass/_variables.scss */
+/* line 23, ../sass/_variables.scss */
 .btn {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -82,12 +82,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: 700;
 }
 
-/* line 31, ../sass/_variables.scss */
+/* line 33, ../sass/_variables.scss */
 .btn-small {
   padding: 1em 1.5em !important;
 }
 
-/* line 35, ../sass/_variables.scss */
+/* line 37, ../sass/_variables.scss */
 .btn.main-btn {
   background: #fca309;
   color: #253544;
@@ -98,24 +98,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   transition: all 0.5s ease;
 }
 
-/* line 45, ../sass/_variables.scss */
+/* line 47, ../sass/_variables.scss */
 .btn.main-btn:hover {
   background: #ffb238;
 }
 
-/* line 49, ../sass/_variables.scss */
+/* line 51, ../sass/_variables.scss */
 .btn.sec-btn {
   border: 1px solid white;
   transition: all 0.5s ease;
 }
 
-/* line 54, ../sass/_variables.scss */
+/* line 56, ../sass/_variables.scss */
 .btn.sec-btn:hover {
   color: #253544;
   background: white;
 }
 
-/* line 59, ../sass/_variables.scss */
+/* line 61, ../sass/_variables.scss */
 .btn.contact-btn {
   background: #38a4a6;
   color: white;
@@ -126,62 +126,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   transition: all 0.5s ease;
 }
 
-/* line 69, ../sass/_variables.scss */
+/* line 71, ../sass/_variables.scss */
 .btn.contact-btn:hover {
   background: #41bdbf;
 }
 
-/* line 73, ../sass/_variables.scss */
+/* line 75, ../sass/_variables.scss */
 strong {
   font-weight: 700;
 }
 
-/* line 78, ../sass/_variables.scss */
+/* line 80, ../sass/_variables.scss */
 .dib {
   display: inline-block !important;
 }
 
-/* line 79, ../sass/_variables.scss */
+/* line 81, ../sass/_variables.scss */
 .tar {
   text-align: right !important;
 }
 
-/* line 80, ../sass/_variables.scss */
+/* line 82, ../sass/_variables.scss */
 .tal {
   text-align: left !important;
 }
 
-/* line 81, ../sass/_variables.scss */
+/* line 83, ../sass/_variables.scss */
 .tac {
   text-align: center !important;
 }
 
-/* line 82, ../sass/_variables.scss */
+/* line 84, ../sass/_variables.scss */
 .f-right {
   float: right !important;
 }
 
-/* line 83, ../sass/_variables.scss */
+/* line 85, ../sass/_variables.scss */
 .f-left {
   float: left !important;
 }
 
-/* line 84, ../sass/_variables.scss */
+/* line 86, ../sass/_variables.scss */
 .mt20 {
   margin-top: 20px !important;
 }
 
-/* line 85, ../sass/_variables.scss */
+/* line 87, ../sass/_variables.scss */
 .mb20 {
   margin-bottom: 20px !important;
 }
 
-/* line 86, ../sass/_variables.scss */
+/* line 88, ../sass/_variables.scss */
 .mt40 {
   margin-top: 40px !important;
 }
 
-/* line 87, ../sass/_variables.scss */
+/* line 89, ../sass/_variables.scss */
 .mb40 {
   margin-bottom: 40px !important;
 }
@@ -198,73 +198,117 @@ strong {
 }
 @media only screen and (max-width: 767px) {
   /* line 18, ../sass/_mediaqueries.scss */
+  header {
+    padding: 30px 0 50px !important;
+  }
+  /* line 20, ../sass/_mediaqueries.scss */
+  header .logo {
+    margin: 0 auto;
+  }
+  /* line 24, ../sass/_mediaqueries.scss */
+  header .social-nav {
+    top: -10px !important;
+    right: 0 !important;
+    float: none !important;
+    text-align: center;
+  }
+  /* line 31, ../sass/_mediaqueries.scss */
+  header nav.nav {
+    float: none !important;
+    text-align: center;
+  }
+  /* line 35, ../sass/_mediaqueries.scss */
+  header nav.nav ul {
+    right: 0 !important;
+    top: 20px !important;
+    text-align: center;
+  }
+
+  /* line 43, ../sass/_mediaqueries.scss */
   .section {
     padding: 20px 0 !important;
   }
 
-  /* line 22, ../sass/_mediaqueries.scss */
+  /* line 47, ../sass/_mediaqueries.scss */
   .billboard {
     height: auto !important;
     text-align: center !important;
   }
-  /* line 26, ../sass/_mediaqueries.scss */
+  /* line 51, ../sass/_mediaqueries.scss */
   .billboard .call-to {
     text-align: center;
   }
-  /* line 29, ../sass/_mediaqueries.scss */
+  /* line 54, ../sass/_mediaqueries.scss */
   .billboard .call-to a.btn {
     float: none !important;
     margin: 0 auto 20px;
-    width: 300px;
+    width: 290px;
     display: block;
   }
 
-  /* line 39, ../sass/_mediaqueries.scss */
+  /* line 64, ../sass/_mediaqueries.scss */
   .description h3 {
     line-height: 30px !important;
   }
 
-  /* line 44, ../sass/_mediaqueries.scss */
+  /* line 69, ../sass/_mediaqueries.scss */
   .open-call {
     height: auto !important;
   }
-  /* line 46, ../sass/_mediaqueries.scss */
+  /* line 72, ../sass/_mediaqueries.scss */
+  .open-call h2 {
+    font-size: 30px !important;
+  }
+  /* line 76, ../sass/_mediaqueries.scss */
   .open-call .featured-blk {
     margin: 20px 0;
   }
 
-  /* line 51, ../sass/_mediaqueries.scss */
+  /* line 81, ../sass/_mediaqueries.scss */
   .sede {
     height: auto !important;
   }
+  /* line 84, ../sass/_mediaqueries.scss */
+  .sede h2 {
+    font-size: 30px !important;
+  }
+  /* line 88, ../sass/_mediaqueries.scss */
+  .sede .box-gray {
+    padding: 35px 20px !important;
+  }
 
-  /* line 55, ../sass/_mediaqueries.scss */
+  /* line 93, ../sass/_mediaqueries.scss */
   .sponsors {
     text-align: center;
     height: auto !important;
   }
-  /* line 59, ../sass/_mediaqueries.scss */
+  /* line 97, ../sass/_mediaqueries.scss */
   .sponsors .btn.main-btn {
     margin-bottom: 30px;
   }
 
-  /* line 64, ../sass/_mediaqueries.scss */
+  /* line 103, ../sass/_mediaqueries.scss */
+  .contact h2 {
+    font-size: 30px !important;
+  }
+
+  /* line 108, ../sass/_mediaqueries.scss */
   footer {
     text-align: center;
     padding: 20px 0 !important;
   }
-  /* line 68, ../sass/_mediaqueries.scss */
+  /* line 112, ../sass/_mediaqueries.scss */
   footer p.copyright {
     margin: 10px 0;
   }
-  /* line 72, ../sass/_mediaqueries.scss */
+  /* line 116, ../sass/_mediaqueries.scss */
   footer p.right-txt {
     text-align: center !important;
     margin: 10px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 970px) {
-  /* line 81, ../sass/_mediaqueries.scss */
+  /* line 125, ../sass/_mediaqueries.scss */
   .wrap-l7 {
     left: 25%;
     width: 75%;
@@ -273,7 +317,80 @@ strong {
 /* line 3, ../sass/_header.scss */
 header {
   background: white;
-  padding: 20px 0;
+  padding: 30px 0;
+}
+/* line 7, ../sass/_header.scss */
+header .logo {
+  width: 241px;
+}
+/* line 11, ../sass/_header.scss */
+header .social-nav {
+  position: relative;
+  float: right;
+  top: 35px;
+  right: 15px;
+}
+/* line 18, ../sass/_header.scss */
+header .social-nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 25, ../sass/_header.scss */
+header nav.nav {
+  text-align: right;
+}
+/* line 27, ../sass/_header.scss */
+header nav.nav ul {
+  position: relative;
+  right: 15px;
+  top: 40px;
+}
+/* line 32, ../sass/_header.scss */
+header nav.nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+/* line 36, ../sass/_header.scss */
+header nav.nav ul li a {
+  color: #8b8b8b;
+  font-size: 14px;
+}
+/* line 41, ../sass/_header.scss */
+header nav.nav ul li a:hover {
+  color: #253544;
+  border-bottom: 1px solid #253544;
+  padding-bottom: 5px;
+}
+/* line 49, ../sass/_header.scss */
+header nav.nav ul li.active a {
+  color: #253544;
+  border-bottom: 1px solid #253544;
+  padding-bottom: 5px;
+}
+/* line 58, ../sass/_header.scss */
+header .top-link {
+  position: relative;
+  top: -30px;
+  right: 15px;
+}
+/* line 63, ../sass/_header.scss */
+header .top-link .isa13 {
+  background: #f2f6f7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px 20px;
+}
+/* line 70, ../sass/_header.scss */
+header .top-link .isa13 a, header .top-link .isa13 a:visited {
+  font-size: 14px;
+  color: #253544;
+  font-weight: 300;
+  line-height: normal;
+}
+/* line 77, ../sass/_header.scss */
+header .top-link .isa13 a:hover {
+  text-decoration: underline;
 }
 
 /* line 1, ../sass/_home.scss */
@@ -285,7 +402,7 @@ body h1, body h2, body h3, body h4, body h5 {
   color: white;
 }
 
-/* line 9, ../sass/_home.scss */
+/* line 10, ../sass/_home.scss */
 span.ico-contact {
   background: url("../../img/icon-contacto.svg") no-repeat scroll 0 0 transparent;
   display: inline-block;
@@ -294,7 +411,36 @@ span.ico-contact {
   width: 15px;
 }
 
-/* line 17, ../sass/_home.scss */
+/* line 18, ../sass/_home.scss */
+.icon-tw, .icon-fb, .icon-email {
+  display: inline-block;
+  height: 30px;
+  text-indent: -9999px;
+  width: 30px;
+  transition: all 0.5s ease;
+}
+
+/* line 26, ../sass/_home.scss */
+.icon-tw:hover, .icon-fb:hover, .icon-email:hover {
+  opacity: 0.7;
+}
+
+/* line 30, ../sass/_home.scss */
+.icon-tw {
+  background: url("../../img/icon-twitter.svg") no-repeat scroll 0 0 transparent;
+}
+
+/* line 34, ../sass/_home.scss */
+.icon-fb {
+  background: url("../../img/icon-facebook.svg") no-repeat scroll 0 0 transparent;
+}
+
+/* line 38, ../sass/_home.scss */
+.icon-email {
+  background: url("../../img/icon-email.svg") no-repeat scroll 0 0 transparent;
+}
+
+/* line 42, ../sass/_home.scss */
 .ribbon {
   background: url("../../img/firulete.svg") no-repeat scroll 0 0 transparent;
   display: inline-block;
@@ -303,138 +449,254 @@ span.ico-contact {
   margin: 40px 0;
 }
 
-/* line 25, ../sass/_home.scss */
+/* line 50, ../sass/_home.scss */
 .section {
   padding: 60px 0;
 }
 
-/* line 29, ../sass/_home.scss */
+/* line 54, ../sass/_home.scss */
 .billboard {
   background: url("../../img/Background-collage.jpg") no-repeat scroll 0 0 #253544;
   background-size: cover;
 }
-/* line 34, ../sass/_home.scss */
+/* line 59, ../sass/_home.scss */
 .billboard h1 {
   font-size: 42px;
   text-transform: uppercase;
   font-weight: 100;
   line-height: 120%;
 }
-/* line 41, ../sass/_home.scss */
+/* line 66, ../sass/_home.scss */
 .billboard h4 {
   font-size: 24px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   padding: 10px 0;
 }
-/* line 48, ../sass/_home.scss */
+/* line 73, ../sass/_home.scss */
 .billboard .call-to {
   margin: 20px 0;
 }
 
-/* line 53, ../sass/_home.scss */
+/* line 78, ../sass/_home.scss */
 .description {
   background: #47627f;
   color: white;
   text-align: center;
 }
-/* line 58, ../sass/_home.scss */
+/* line 83, ../sass/_home.scss */
 .description h3 {
   font-size: 26px;
   line-height: 24px;
   font-weight: 300;
   margin-bottom: 20px;
 }
-/* line 65, ../sass/_home.scss */
+/* line 90, ../sass/_home.scss */
 .description p {
   font-size: 15px;
   line-height: 24px;
 }
 
-/* line 72, ../sass/_home.scss */
+/* line 97, ../sass/_home.scss */
 .open-call {
+  background: url("../../img/Background-trama.jpg") no-repeat scroll center center #253544;
+  background-size: cover;
   text-align: center;
 }
-/* line 75, ../sass/_home.scss */
+/* line 102, ../sass/_home.scss */
 .open-call .featured-blk {
   margin: 40px 0 20px;
 }
-/* line 79, ../sass/_home.scss */
+/* line 106, ../sass/_home.scss */
 .open-call h2 {
   color: #38a4a6;
   font-size: 46px;
   font-weight: 300;
   margin-bottom: 20px;
 }
-/* line 86, ../sass/_home.scss */
+/* line 113, ../sass/_home.scss */
 .open-call h4 {
   color: #47627f;
   font-size: 18px;
   font-weight: 600;
   margin: 20px 0 10px;
 }
-/* line 93, ../sass/_home.scss */
+/* line 120, ../sass/_home.scss */
 .open-call p {
   color: #5e5e5e;
   line-height: 22px;
 }
 
-/* line 99, ../sass/_home.scss */
+/* line 126, ../sass/_home.scss */
 .sede {
   background: url("../../img/Background-trama2.jpg") no-repeat scroll center center #253544;
   background-size: cover;
 }
-/* line 104, ../sass/_home.scss */
+/* line 131, ../sass/_home.scss */
 .sede .gray-box {
   background: none repeat scroll 0 0 #D6DADD;
   padding: 40px;
 }
-/* line 109, ../sass/_home.scss */
+/* line 136, ../sass/_home.scss */
 .sede h2 {
   color: #38a4a6;
   font-size: 50px;
   font-weight: 300;
   margin-bottom: 20px;
 }
-/* line 116, ../sass/_home.scss */
+/* line 143, ../sass/_home.scss */
 .sede p {
   line-height: 28px;
   color: #5e5e5e;
 }
-/* line 121, ../sass/_home.scss */
+/* line 148, ../sass/_home.scss */
 .sede img {
   margin: 30px 0;
 }
-/* line 125, ../sass/_home.scss */
+/* line 152, ../sass/_home.scss */
 .sede a, .sede a:visited {
   color: #47627f;
   text-decoration: underline;
 }
-/* line 130, ../sass/_home.scss */
+/* line 157, ../sass/_home.scss */
 .sede a:hover {
   color: #47627f;
   text-decoration: none;
 }
 
-/* line 136, ../sass/_home.scss */
+/* line 163, ../sass/_home.scss */
 .sponsors {
   background: url("../../img/Background-adoquines.jpg") no-repeat scroll center center #253544;
   background-size: cover;
 }
-/* line 141, ../sass/_home.scss */
+/* line 168, ../sass/_home.scss */
 .sponsors h5 {
   line-height: normal;
   margin-bottom: 10px;
 }
-/* line 146, ../sass/_home.scss */
+/* line 173, ../sass/_home.scss */
 .sponsors img {
   margin: 10px;
 }
 
-/* line 151, ../sass/_home.scss */
+/* line 178, ../sass/_home.scss */
 footer {
   padding: 40px 0;
   border-top: 2px solid #38a4a6;
   font-size: 15px;
   color: #464646;
+}
+
+/* line 186, ../sass/_home.scss */
+.contact {
+  background: none repeat scroll 0 0 rgba(63, 87, 113, 0.9);
+  border: none;
+}
+/* line 190, ../sass/_home.scss */
+.contact br {
+  display: none;
+}
+/* line 194, ../sass/_home.scss */
+.contact h2 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* line 200, ../sass/_home.scss */
+.contact input[type="text"], .contact input[type="password"], .contact input[type="date"], .contact input[type="datetime"], .contact input[type="datetime-local"], .contact input[type="month"], .contact input[type="week"], .contact input[type="email"], .contact input[type="number"], .contact input[type="search"], .contact input[type="tel"], .contact input[type="time"], .contact input[type="url"], .contact textarea {
+  box-shadow: none;
+  margin: 0 0 1.5em;
+}
+/* line 205, ../sass/_home.scss */
+.contact textarea {
+  min-height: 100px;
+}
+/* line 209, ../sass/_home.scss */
+.contact .your-name input {
+  background: url("../../img/icon-nombre.svg") no-repeat scroll 8px center white;
+  padding-left: 30px;
+}
+/* line 214, ../sass/_home.scss */
+.contact .your-email input {
+  background: url("../../img/icon-mail.svg") no-repeat scroll 8px center white;
+  padding-left: 30px;
+}
+/* line 219, ../sass/_home.scss */
+.contact .your-message textarea {
+  background: url("../../img/icon-mensaje.svg") no-repeat scroll 8px 10px white;
+  padding-left: 30px;
+}
+/* line 224, ../sass/_home.scss */
+.contact input[type="submit"] {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  background: #fca309;
+  color: #253544;
+  -webkit-box-shadow: 0 2px #b67b0b;
+  -moz-box-shadow: 0 2px #b67b0b;
+  box-shadow: 0 2px #b67b0b;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+  margin-left: 20px;
+}
+/* line 241, ../sass/_home.scss */
+.contact input[type="submit"]:hover {
+  background: #ffb238;
+}
+/* line 247, ../sass/_home.scss */
+.contact span.wpcf7-form-control-wrap {
+  width: 100%;
+}
+/* line 251, ../sass/_home.scss */
+.contact span.wpcf7-not-valid-tip {
+  color: #FF0000;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  position: relative;
+  top: -15px;
+}
+/* line 260, ../sass/_home.scss */
+.contact div.wpcf7-validation-errors {
+  border: 1px solid #FFB237;
+}
+/* line 264, ../sass/_home.scss */
+.contact div.wpcf7-mail-sent-ok {
+  border: 1px solid #398F14;
+}
+/* line 268, ../sass/_home.scss */
+.contact div.wpcf7-response-output {
+  margin: 1.5em 0 1em;
+  font-size: 13px;
+  color: white;
+  padding: 1em;
+  line-height: normal;
+}
+/* line 276, ../sass/_home.scss */
+.contact .contact-btns {
+  position: relative;
+  margin-top: 20px;
+  text-align: right;
+}
+/* line 280, ../sass/_home.scss */
+.contact .contact-btns .btn-cancel {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+/* line 285, ../sass/_home.scss */
+.contact .contact-btns .btn-cancel:hover {
+  text-decoration: none;
+}
+/* line 289, ../sass/_home.scss */
+.contact .contact-btns img.ajax-loader {
+  position: absolute;
+  left: 0;
 }
