@@ -2,7 +2,7 @@
 
 <main role="main">
 		<!-- section -->
-		<!-- <section> -->
+			<?php query_posts(array('posts_per_page'=>15, 'post_type'=>'html5-blank'));?>
 			<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 				<?php the_content(); ?>
@@ -20,7 +20,6 @@
 
 			<?php endif; ?>
 		<!-- </section> -->
-		<!-- /section -->
 </main>			
 
 <?php get_footer(); ?>
