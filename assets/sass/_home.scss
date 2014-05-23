@@ -128,16 +128,33 @@ span.ico-contact {
 	// height: 787px;
 	background-size: cover;
 
+	.top-box {
+	    background: none repeat scroll 0 0 #D6DADD;
+	    padding: 40px 40px 0;
+	    width: calc(100% - 100px);
+	}
+
+	.top-box:after {
+		content: '';
+	    position: absolute;
+	    top: 0; 
+	    right: 15px;
+	    border-top: 100px solid transparent;
+	    border-left: 100px solid #D6DADD;
+	    width: 0;
+	    padding-bottom: 10px;
+	}
+
 	.gray-box {
 	    background: none repeat scroll 0 0 #D6DADD;
-	    padding: 40px;
+	    padding: 0 40px 40px;
 	}
 
 	h2 {
 		color: $aquaBlue;
 		font-size: 50px;
 		font-weight: 300;
-		margin-bottom: 20px;
+		padding-bottom: 20px;
 	}
 
 	p {
@@ -162,7 +179,6 @@ span.ico-contact {
 
 .sponsors {
 	background: url("../../img/Background-adoquines.jpg") no-repeat scroll center center $darkBlue;
-	// height: 484px;
 	background-size: cover;
 	
 	h5 {
@@ -183,18 +199,61 @@ footer {
 }
 
 // Contact form...
+.reveal-modal {
+	background-color: transparent;
+	padding: 0 !important;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.contact-top {
+	padding: 1.875em 1.875em 0;
+	background: none repeat scroll 0 0 rgba(63, 87, 113, 0.9);
+	width: calc(100% - 70px);
+
+	h2 {
+		font-size: 42px;
+		font-weight: 300;
+	}
+}
+
+.contact-top:after {
+	content: '';
+    position: absolute;
+    top: 0; 
+    right: 0;
+    border-top: 70px solid transparent;
+    border-left: 70px solid rgba(63, 87, 113, 0.9);
+    width: 0;
+    padding-bottom: 2px;
+}
+
 .contact {
 	background: none repeat scroll 0 0 rgba(63, 87, 113, 0.9);
 	border: none;
+	padding: 1.875em;
 
 	br {
 		display: none;
 	}
-	
-	h2 {
-		font-size: 42px;
-		font-weight: 300;
-		margin-bottom: 20px;
+
+	.close-reveal-modal {
+		background: $darkBlue;
+	    border: 2px solid #FFFFFF;
+	    @include border-radius(100%);
+	    color: #FFFFFF;
+	    height: 24px;
+	    left: -10px;
+	    line-height: 18px;
+	    font-weight: 400;
+	    text-align: center;
+	    top: -10px;
+	    width: 24px;
+	    font-size: 1em;
+	}
+
+	.close-reveal-modal:hover {
+		opacity: 0.8;
 	}
 
 	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {

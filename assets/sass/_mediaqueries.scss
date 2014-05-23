@@ -85,8 +85,17 @@
 			font-size: 30px !important;
 		}
 
-		.box-gray {
-			padding: 35px 20px !important;
+		.top-box {
+			width: calc(100% - 90px) !important;
+		}
+
+		.top-box:after {
+		    border-left: 90px solid #D6DADD !important;
+		    border-top: 90px solid rgba(0, 0, 0, 0) !important;
+		}
+
+		.gray-box {
+			padding: 0 20px 35px !important;
 		}
 	}
 
@@ -99,10 +108,18 @@
 		}
 	}
 
-	.contact {
+	.contact-top {
+		width: calc(100% - 55px) !important;
+
 		h2 {
 			font-size: 30px !important;
 		}
+	}
+
+	.contact-top:after {
+		padding-bottom: 5px !important;
+		border-top: 55px solid transparent !important;
+    	border-left: 55px solid rgba(63, 87, 113, 0.9) !important;
 	}
 
 	footer {
