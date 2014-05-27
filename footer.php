@@ -36,6 +36,7 @@
 		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="../wp-content/themes/isa14/js/foundation.min.js"></script>
 		<script src="../wp-content/themes/isa14/js/foundation.reveal.js"></script>
+		<script src="../wp-content/themes/isa14/js/scripts.js"></script>
 
 		<script>
 		   $(document).foundation();

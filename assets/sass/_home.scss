@@ -4,9 +4,31 @@ body {
 	h1, h2, h3, h4, h5 {
 		color: $white;
 	}
+
+	strong {
+		font-weight: 700;
+	}
+
+	span.blue-title {
+		font-size: 18px;
+		font-weight: 600;
+		color: $lightBlue;
+	}
 }
 
 // Icons...
+
+.cerrar-icon {
+	background: url('../../img/cerrar-icon.svg') no-repeat scroll 0 0 transparent;
+	width: 22px;
+	height: 23px;
+	display: block;			
+}
+
+.cerrar-icon:hover {
+	opacity: 0.8;
+}
+
 span.ico-contact {
 	background: url("../../img/icon-contacto.svg") no-repeat scroll 0 0 transparent;
 	display: inline-block;
@@ -39,6 +61,32 @@ span.ico-contact {
 	background: url("../../img/icon-email.svg") no-repeat scroll 0 0 transparent;
 }
 
+.icon-article, .icon-charlas, .icon-talleres, .icon-paneles, .icon-posters {
+	display: inline-block;
+    height: 107px;
+    width: 107px;
+}
+
+.icon-article {
+	background: url('../../img/icon-articulos.svg') no-repeat scroll center center transparent;
+}
+
+.icon-charlas {
+	background: url('../../img/icon-charlas.svg') no-repeat scroll center center transparent;
+}
+
+.icon-talleres {
+	background: url('../../img/icon-charlas.svg') no-repeat scroll center center transparent;
+}
+
+.icon-posters {
+	background: url('../../img/icon-posters.svg') no-repeat scroll center center transparent;
+}
+
+.icon-paneles {
+	background: url('../../img/icon-paneles.svg') no-repeat scroll center center transparent;
+}
+
 .ribbon {
 	background: url("../../img/firulete.svg") no-repeat scroll 0 0 transparent;
 	display: inline-block;
@@ -51,9 +99,12 @@ span.ico-contact {
 	padding: 60px 0;
 }
 
+.section-more {
+	padding-top: 60px;
+}
+
 .billboard {
 	background: url("../../img/Background-collage.jpg") no-repeat scroll 0 0 $darkBlue;
-	// height: 485px;
 	background-size: cover;
 
 	h1 {
@@ -120,6 +171,212 @@ span.ico-contact {
 	p {
 		color: $gray;
 		line-height: 22px;
+	}
+}
+
+// More info Section...
+.tab {
+	border-bottom: 5px solid $yellow;
+}
+
+#more-info.collapsed {
+	border-bottom: 5px solid $yellow;
+}
+
+#more-info {
+	display: none;
+
+	.articles {
+		h4 {
+			span {
+				display: block;
+				margin-top: 5px;
+			}
+		}
+	}
+
+	.more-open-call {
+		color: $gray;
+		ul {
+			margin-left: 15px;
+			padding-top: 15px;
+			li {
+				padding-bottom: 5px;
+				line-height: normal;
+				text-indent: -17px;
+				font-weight: 300;
+			}
+
+			li:before {
+			    color: $darkBlue;
+			    content: "•";
+			    font-weight: 700;
+			    padding-right: 10px;
+			}
+		}
+
+		.more-link, .more-link:visited {
+			color: $lightBlue;
+		    display: inline-block;
+		    font-weight: 300;
+		    padding: 10px 0;
+		    text-decoration: underline;
+		    opacity: 1;
+		    transition: all 0.5s ease;
+		}
+
+		.more-link:hover {
+			text-decoration: none;
+		}
+
+		.open-box {
+			.more-link {
+				opacity: 0;
+				height: 0;
+				padding: 0;
+				cursor: default;
+			}
+		}
+
+		.more-detail {
+		    background: none repeat scroll 0 0 #F9F9F9;
+		    margin-top: 20px;
+		    padding: 30px 20px;
+		    display: none;
+
+		    span {
+		    	color: $lightBlue;
+		    	width: 75%;
+		    	display: inline-block;
+		    	padding-left: 14px;
+		    	line-height: normal;
+		    }
+
+		    .cerrar-icon {
+    			float: right !important;
+    			width: 22px;
+    			cursor: pointer;			
+		    }
+		}
+	}
+}
+
+// Btn tab..
+.btn-tab, .btn-tab:visited {
+	@include border-radius(5px 5px 0 0);
+	padding: 1em 2.5em;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	background: $yellow;
+	color: $darkBlue;
+	border: 1px solid transparent;
+}
+
+.buscamos-objetivos {
+	background: url("../../img/Background-Buscamos.jpg") no-repeat scroll center center $white;
+	background-size: cover;
+	color: $gray;
+	font-weight: 300;
+	line-height: normal;
+	h2 {
+		color: $aquaBlue;
+		font-size: 46px;
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+
+	p {
+		margin-bottom: 20px;
+		color: $gray;
+	}
+}
+
+.fechas {
+	background: $lightBlue;
+	color: $white;
+
+	span.icon-fechaTop {
+		background: url('../../img/fechas-importantes-icon.svg') no-repeat scroll center center transparent;
+		display: inline-block;
+	    height: 107px;
+	    width: 107px;
+	    vertical-align: middle;
+	}
+
+	br {
+		display: none;
+	}
+
+	h2 {
+		font-size: 46px;
+		font-weight: 300;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.icon-fecha1, .icon-fecha2,.icon-fecha3,.icon-fecha4 {
+		width: 50px;
+		height: 50px;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.icon-fecha1 {
+		background: url('../../img/fecha1.svg') no-repeat scroll center center transparent;
+	}
+	.icon-fecha2 {
+		background: url('../../img/fecha2.svg') no-repeat scroll center center transparent;
+	}
+	.icon-fecha3 {
+		background: url('../../img/fecha3.svg') no-repeat scroll center center transparent;
+	}
+	.icon-fecha4 {
+		background: url('../../img/fecha4.svg') no-repeat scroll center center transparent;
+	}
+
+	span.date {
+		font-size: 26px;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	p {
+		font-weight: 300;
+		line-height: normal;
+	}
+
+	// .line-r {
+	// 	border: 1px solid $white;
+	// }
+}
+
+.temas {
+	background: url("../../img/Background-temas.jpg") no-repeat scroll center center $darkBlue;
+	background-size: cover;
+	color: $white;
+
+	h2 {
+		font-size: 46px;
+		font-weight: 300;
+	}
+
+	ul {
+		li {
+			font-weight: 300;
+			font-size: 16px;
+			padding-bottom: 15px;
+			line-height: normal;
+			text-indent: -17px;
+		}
+		li:before {
+		    color: $aquaBlue;
+		    content: '•';
+		    font-weight: 700;
+		    padding-right: 10px;
+		}
 	}
 }
 
