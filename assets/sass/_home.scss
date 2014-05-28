@@ -76,7 +76,7 @@ span.ico-contact {
 }
 
 .icon-talleres {
-	background: url('../../img/icon-charlas.svg') no-repeat scroll center center transparent;
+	background: url('../../img/icon-talleres.svg') no-repeat scroll center center transparent;
 }
 
 .icon-posters {
@@ -491,7 +491,15 @@ footer {
 	padding: 1.875em;
 
 	br {
-		display: none;
+		display: none !important;
+	}
+
+	span.bajada {
+		color:$white;
+		font-weight: 300;
+		line-height: normal;
+		display: block;
+		margin-bottom: 20px; 
 	}
 
 	.close-reveal-modal {
@@ -512,6 +520,17 @@ footer {
 	.close-reveal-modal:hover {
 		opacity: 0.8;
 	}
+	// Suscription popup
+	input.suscription-mail {
+		width: 70%;
+		display: inline-block !important;
+	}
+
+	input.suscription-btn {
+		display: inline-block;
+		margin-left: 5px !important;
+    	width: 25%;
+	}
 
 	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
 		box-shadow: none;
@@ -520,6 +539,7 @@ footer {
 
 	textarea {
 		min-height: 100px;
+		font-size: 14px;
 	}
 
 	.your-name input {
@@ -527,7 +547,7 @@ footer {
 		padding-left: 30px;
 	}
 
-	.your-email input {
+	.your-email input, input.suscription-mail {
 		background: url("../../img/icon-mail.svg") no-repeat scroll 8px center #FFFFFF;
 		padding-left: 30px;
 	}
@@ -537,7 +557,7 @@ footer {
 		padding-left: 30px;
 	}
 
-	input[type="submit"] {
+	input[type="submit"], input.suscription-btn {
 		@include border-radius(5px);
 		padding: 0.5em 2em;
 		display: inline-block;
@@ -554,7 +574,7 @@ footer {
 		margin-left: 20px;
 	}
 
-	input[type="submit"]:hover {
+	input[type="submit"]:hover, input.suscription-btn:hover {
 		background: $lightYellow;
 	}
 
@@ -564,26 +584,37 @@ footer {
 		width: 100%;
 	}
 
-	span.wpcf7-not-valid-tip {
-	    color: #FF0000;
+	span.errors {
+		top: -10px !important;
+	}
+
+	span.wpcf7-not-valid-tip, .errors {
+	    // color: #C60F13;
+	    color: $yellow;
 	    display: block;
 	    font-family: 'Open Sans', sans-serif;
 	    font-size: 13px;
 	    position: relative;
 	    top: -15px;
+	    padding-bottom: 5px;
 	}
 
 	div.wpcf7-validation-errors {
-	    border: 1px solid #FFB237;
+	    border: 2px solid $yellow;
 	}
 
-	div.wpcf7-mail-sent-ok {
-		border: 1px solid #398F14;
+	input.input-error, .wpcf7-not-valid {
+	    box-shadow: 0 0 1px 2px #F4A308 !important;
 	}
 
-	div.wpcf7-response-output {
+	div.wpcf7-mail-sent-ok, .gracias {
+		border: 2px solid $aquaBlue;
+	}
+
+	div.wpcf7-response-output, .gracias {
 		margin: 1.5em 0 1em;
-		font-size: 13px;
+		font-size: 16px;
+		font-weight: 300;
 		color: $white;
 		padding: 1em;
 		line-height: normal;

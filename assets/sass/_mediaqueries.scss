@@ -1,7 +1,4 @@
 @media only screen and (max-width:480px) {
-	// .section {
-	// 	padding: 10px 0 !important;
-	// }
 
 	.billboard {
 		h1 {
@@ -10,6 +7,17 @@
 
 		h4 {
 			font-size: 20px !important;
+		}
+	}
+
+	.contact {
+		input[type="button"].suscription-btn {
+			width: 100% !important;
+			margin-left: 0 !important;
+		}
+
+		input.suscription-mail {
+			width: 100% !important;
 		}
 	}
 }
