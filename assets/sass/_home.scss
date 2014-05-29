@@ -448,6 +448,26 @@ span.ico-contact {
 	}
 }
 
+.faja {
+	background: $darkBlue;
+	padding:10px 0;
+	text-align: center;
+	color: $white;
+	font-weight: 300;
+
+	.senado {
+		font-weight: 400;
+	}
+}
+
+.icon-escudo {
+	background: url('../../img/icon-escudo.svg') no-repeat scroll center center transparent;
+	height: 66px;
+	width: 60px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 footer {
 	padding: 40px 0;
 	border-top: 2px solid $aquaBlue;
