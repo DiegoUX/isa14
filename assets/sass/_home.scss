@@ -196,12 +196,95 @@ span.ico-contact {
 }
 
 // More info Section...
-.tab {
-	border-bottom: 10px solid $yellow;
+.pos-rel {
+	position: relative;
 }
 
-#more-info.collapsed {
-	border-bottom: 10px solid $yellow;
+.btn-hide {
+	font-size: 16px;
+    position: relative;
+    top: 20px;
+    z-index: 9999;
+    display: block;
+    opacity: 1;
+    transition-delay:0.7s;
+}
+
+.tab-container.activo {
+	.btn-hide {
+		width: 0;
+		top: 0;
+		position: absolute;
+		opacity: 0;
+		transition-delay:0s;
+	}
+
+	.more-info-close {
+		opacity: 1;
+		transition: opacity 1.8s ease;
+	}
+}
+
+.more-info-close {
+	font-size: 16px;
+    position: relative;
+    opacity: 0;
+    // transition-delay: 0.7s;
+}
+
+ span.arrow {
+	background: url("../../img/flecha-boton.svg") no-repeat scroll center center transparent;
+	display: inline-block;
+    height: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+    width: 21px;    
+}
+
+span.close-btn {
+	background: url("../../img/cerrar-icon.svg") no-repeat scroll center center transparent;
+	display: inline-block;
+    height: 23px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+    width: 22px;
+}
+
+.tab-top {
+	border-bottom: 10px solid #FCAB0F;
+	// Btn tab..
+	.btn-tab {
+	    background: url("../../img/btn-abierto-top.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
+	    color: #253544;
+	    display: inline-block;
+	    font-weight: 700;
+	    height: 49px;
+	    line-height: 49px;
+	    position: absolute;
+	    right: 25%;
+	    text-transform: uppercase;
+	    top: -35px;
+	    width: 500px;
+	}
+}
+
+.tab-bottom {
+	border-bottom: 10px solid #FCAB0F;
+	.btn-tab {
+		background: url("../../img/btn-abierto-bottom.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
+	    color: #253544;
+	    display: inline-block;
+	    font-size: 18px;
+	    font-weight: 700;
+	    height: 49px;
+	    line-height: 49px;
+	    position: absolute;
+	    right: 25%;
+	    text-transform: uppercase;
+	    top: -4px;
+	    width: 500px;
+	}
 }
 
 #more-info {
@@ -286,19 +369,6 @@ span.ico-contact {
 		    }
 		}
 	}
-}
-
-// Btn tab..
-.btn-tab, .btn-tab:visited {
-	@include border-radius(5px 5px 0 0);
-	padding: 1em 2.5em;
-	display: inline-block;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 700;
-	background: $yellow;
-	color: $darkBlue;
-	border: 1px solid transparent;
 }
 
 .buscamos-objetivos {
@@ -498,6 +568,34 @@ span.ico-contact {
 // Comité Organizativo...
 .comite {
 	background: $darkBlue;
+	text-align: center;
+
+	h2 {
+		color: $aquaBlue;
+		font-size: 46px;
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-size: 30px;
+		color: $aquaBlue;
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+
+	.member-blk {
+		margin: 30px 0;
+		img {
+			margin-bottom: 10px;
+		}
+		p {
+		    color: #FFFFFF;
+		    font-size: 14px;
+		    font-weight: 300;
+		    line-height: normal;
+		}
+	}
 }
 
 footer {
@@ -694,13 +792,18 @@ footer {
 }
 
 .scrollup {
-    // background: url("../img/scroll.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../../img/flecha-tope.svg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     bottom: 50px;
     // display: none;
-    height: 62px;
+    height: 51px;
     position: fixed;
     right: 40px;
-    // text-indent: -9999px;
-    width: 62px;
+    text-indent: -9999px;
+    width: 52px;
     z-index: 999;
+    transition: opacity 0.2s ease;
+}
+
+.scrollup:hover {
+	opacity: 0.8;
 }

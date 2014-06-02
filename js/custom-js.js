@@ -40,22 +40,23 @@ $(document).ready(function () {
         return false;
     });
 
-
-    $("#more-info-link").click(function(e) {
+// Sección More info...
+    $("#more-info-link, .more-info-close").click(function(e) {
          e.preventDefault();
          $("#more-info").toggleClass("collapsed");
          $("#more-info").slideToggle( "slow", function() {
          // Animation complete.
          });
+         $(this).parents(".tab-container").toggleClass("activo");
      });
 
-    // Contact...
+// Contact...
     $('a#close-wp7, .contact-btns .btn-cancel').click(function(e){
         e.preventDefault();
         $('.wpcf7-form')[0].reset();
         $('.wpcf7-not-valid-tip, .wpcf7-response-output').hide();
     });
-    // Suscription...
+// Suscription...
     $('a#close-sus').click(function(){
         $("#thanks").hide("fade");
         $(".errors").hide();
