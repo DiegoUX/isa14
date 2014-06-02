@@ -1,11 +1,16 @@
 <?php /* Template Name: Home Template */ get_header(); ?>
-
+<?php remove_filter( 'the_content', 'wpautop' ); ?>
 <main role="main">
 		<!-- section -->
-			<?php query_posts(array('posts_per_page'=>15, 'post_type'=>'html5-blank'));?>
+			<?php query_posts(array('post_type'=>'html5-blank'));?>
 			<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-
-				<?php the_content(); ?>
+				<!-- Quita los tags p y br solo de los CCT del home -->
+				<?php 
+					// $our_content = get_the_content();
+					// $clean_content = cleanup_shortcode_fix($our_content);
+					// echo $clean_content;
+				the_content(); 
+				?>
 
 			<?php endwhile; ?>
 			<?php else: ?>

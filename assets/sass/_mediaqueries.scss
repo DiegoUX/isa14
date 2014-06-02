@@ -25,6 +25,9 @@
 }
 
 @media only screen and (max-width:767px) {
+	.buscamos-objetivos h2, h2.yellow, .fechas h2, .temas h2 {
+		font-size: 30px !important;
+	}
 	header {
 		padding: 30px 0 50px !important;
 		.logo {

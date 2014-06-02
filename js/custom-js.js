@@ -21,6 +21,34 @@
 // });
 
 $(document).ready(function () {
+
+    $(window).scroll(function () {
+        // var tope = ($('.billboard').height()) + ($('.description').height()) + ($('.open-call').height());
+
+        if ($(this).scrollTop() < ($('#more-info').height())) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $('html, body').animate({
+            // scrollTop: 0
+            scrollTop:$('#more-info').position().top
+        }, 600);
+        return false;
+    });
+
+
+    $("#more-info-link").click(function(e) {
+         e.preventDefault();
+         $("#more-info").toggleClass("collapsed");
+         $("#more-info").slideToggle( "slow", function() {
+         // Animation complete.
+         });
+     });
+
     // Contact...
     $('a#close-wp7, .contact-btns .btn-cancel').click(function(e){
         e.preventDefault();

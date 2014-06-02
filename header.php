@@ -60,12 +60,13 @@
 					<div class="large-6 columns">
 						<!-- nav -->
 						<nav class="nav" role="navigation">
+							<?php do_action('icl_language_selector'); ?>
 							<!--<?php html5blank_nav(); ?>-->
-							<ul>
+							<!-- <ul>
 								<li class="active"><a href="#">Español</a></li>
 								<li><a href="#">Português</a></li>
 								<li><a href="#">English</a></li>
-							</ul>
+							</ul> -->
 						</nav>
 						<!-- /nav -->
 					</div>
