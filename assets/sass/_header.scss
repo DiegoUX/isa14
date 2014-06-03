@@ -81,5 +81,14 @@ header {
 				text-decoration: underline;
 			}
 		}
+
+		.isa13:after {
+		    border-bottom: 14px solid $white;
+		    border-left: 15px solid $softBlue;
+		    bottom: 0;
+		    content: "";
+		    position: absolute;
+		    right: 0;
+		}
 	}
 }
