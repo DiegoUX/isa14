@@ -1,31 +1,10 @@
-// $(function () {
-// 	$("#more-info-link").click(function(e) {
-// 		e.preventDefault();
-// 		$("#more-info").toggleClass("collapsed");
-// 		$("#more-info").slideToggle( "slow", function() {
-// 		// Animation complete.
-// 		});
-// 	});
-
-// 	$(".more-link").click(function(e){
-// 		e.preventDefault();
-// 		$(this).parent().parent().toggleClass("open-box");
-// 		$(this).parent().siblings(".more-detail").slideToggle();
-// 	});
-
-// 	$(".cerrar-icon").click (function(e){
-// 		e.preventDefault();
-// 		$(this).parent().parent().removeClass("open-box");
-// 		$(this).parent(".more-detail").slideToggle();
-// 	});
-// });
-
 $(document).ready(function () {
 
     $(window).scroll(function () {
-        // var tope = ($('.billboard').height()) + ($('.description').height()) + ($('.open-call').height());
+        var posTop = $('.tab-top').offset().top;
+        var posBottom = $('.tab-bottom').offset().top;
 
-        if ($(this).scrollTop() < ($('#more-info').height())) {
+        if ($(this).scrollTop() > (posTop) && $(this).scrollTop() < (posBottom - 555) ) {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
@@ -34,8 +13,7 @@ $(document).ready(function () {
 
     $('.scrollup').click(function () {
         $('html, body').animate({
-            // scrollTop: 0
-            scrollTop:$('#more-info').position().top
+            scrollTop:$('#more-info').position().top - 60
         }, 600);
         return false;
     });
@@ -44,9 +22,7 @@ $(document).ready(function () {
     $("#more-info-link, .more-info-close").click(function(e) {
          e.preventDefault();
          $("#more-info").toggleClass("collapsed");
-         $("#more-info").slideToggle( "slow", function() {
-         // Animation complete.
-         });
+         $("#more-info").slideToggle();
          $(this).parents(".tab-container").toggleClass("activo");
      });
 
@@ -83,13 +59,9 @@ $(document).ready(function () {
                     $("#thanks").show("fade", { direction: "down" }, 500, function () {
 
                         $.post("http://ixda.us3.list-manage2.com/subscribe/post?u=4440ae65a862c65a973ec8236&amp;id=8713b5a955", $("#mc-embedded-subscribe-form").serialize());
-
                     });
-
                     $("#thanks").css("display", "block");
-
                 });
-
             }
 
             else {
@@ -98,11 +70,8 @@ $(document).ready(function () {
 
                 $("#errorEmail").show("fade", { direction: "right" }, 500);
                 $(".suscription-mail").toggleClass("input-error");
-
             }
-
         }
-    
     });
 
     $("#mc-embedded-subscribe-form").submit(function (event) {
