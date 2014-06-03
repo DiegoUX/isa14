@@ -26,6 +26,14 @@ $(document).ready(function () {
          $(this).parents(".tab-container").toggleClass("activo");
      });
 
+    $(".tab-bottom .more-info-close").click(function(e) {
+         e.preventDefault();
+         $('html, body').animate({
+            scrollTop:$('#more-info').position().top - 60
+        }, 250);
+         return false;
+    });     
+
 // Contact...
     $('a#close-wp7, .contact-btns .btn-cancel').click(function(e){
         e.preventDefault();

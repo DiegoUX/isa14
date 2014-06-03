@@ -26,6 +26,7 @@ body {
 		color: $lightBlue;
 		font-size: 16px;
 		font-weight: 600;
+		line-height: normal;
 	}
 
 }
@@ -243,7 +244,7 @@ span.ico-contact {
 	}
 }
 
- span.arrow {
+span.arrow {
 	background: url("../../img/flecha-boton.svg") no-repeat scroll center center transparent;
 	display: inline-block;
     height: 15px;
@@ -273,10 +274,12 @@ span.close-btn {
 	    height: 49px;
 	    line-height: 49px;
 	    position: absolute;
-	    right: 25%;
+	    // right: 25%;
+	    left: 0;
 	    text-transform: uppercase;
 	    top: -35px;
-	    width: 500px;
+	    // width: 500px;
+	    width: 100%
 	}
 }
 
@@ -291,10 +294,12 @@ span.close-btn {
 	    height: 49px;
 	    line-height: 49px;
 	    position: absolute;
-	    right: 25%;
+	    // right: 25%;
+	    left: 0;
 	    text-transform: uppercase;
 	    top: -4px;
-	    width: 500px;
+	    // width: 500px;
+	    width: 100%;
 	}
 }
 
@@ -469,6 +474,7 @@ span.close-btn {
 	h2 {
 		font-size: 46px;
 		font-weight: 300;
+		margin-bottom: 40px;
 	}
 
 	ul {

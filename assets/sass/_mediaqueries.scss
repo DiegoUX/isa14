@@ -25,7 +25,7 @@
 }
 
 @media only screen and (max-width:767px) {
-	.buscamos-objetivos h2, h2.yellow, .fechas h2, .temas h2 {
+	.buscamos-objetivos h2, h2.yellow, .fechas h2, .temas h2, .comite h2 {
 		font-size: 30px !important;
 	}
 	header {
@@ -89,6 +89,57 @@
 		.featured-blk {
 			margin: 20px 0;
 		}
+	}
+
+	#more-info {
+		.date-blk{
+			margin: 10px 0 20px;
+			.date {
+				font-size: 20px;
+				margin-bottom: 5px;
+			}
+		}
+
+		.temas {
+			h2 {
+				margin-bottom: 0;
+			}
+
+			ul {
+				margin-left: 15px;
+			}
+		}
+		.comite {
+			h3 {
+				font-size: 24px;
+			}
+			.member-blk {
+				margin: 20px 0;
+			}
+		}	
+	}
+
+	.tab-container {
+		margin-top: 20px;
+		.tab-top {
+			.more-info-close {
+				font-size: 14px !important;
+			}
+		}
+
+		.tab-bottom {
+			.more-info-close {
+				font-size: 14px !important;
+			}
+		}
+
+		.btn-hide {
+			font-size: 14px;
+		}
+	}
+
+	.scrollup {
+		right: 5px !important;
 	}
 
 	.sede {
