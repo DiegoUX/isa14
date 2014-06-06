@@ -76,18 +76,27 @@ span.ico-contact {
 	background: url("../../img/icon-email.svg") no-repeat scroll 0 0 transparent;
 }
 
-.icon-article, .icon-charlas, .icon-talleres, .icon-paneles, .icon-posters {
+.icon-articulos, .icon-charlas, .icon-talleres, .icon-paneles, .icon-posters, .icon-articulos-cortos,
+.icon-charlas-relampago {
 	display: inline-block;
     height: 107px;
     width: 107px;
 }
 
-.icon-article {
+.icon-articulos {
 	background: url('../../img/icon-articulos.svg') no-repeat scroll center center transparent;
+}
+
+.icon-articulos-cortos {
+	background: url('../../img/icon-articulos-cortos.svg') no-repeat scroll center center transparent;
 }
 
 .icon-charlas {
 	background: url('../../img/icon-charlas.svg') no-repeat scroll center center transparent;
+}
+
+.icon-charlas-relampago {
+	background: url('../../img/icon-charlas-relampago.svg') no-repeat scroll center center transparent;
 }
 
 .icon-talleres {
@@ -618,8 +627,11 @@ span.close-btn {
 footer {
 	padding: 40px 0;
 	border-top: 2px solid $aquaBlue;
-	font-size: 15px;
 	color: $darkGray;
+
+	p {
+		font-size: 15px;
+	}
 }
 
 // Contact form...

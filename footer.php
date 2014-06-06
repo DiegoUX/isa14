@@ -34,11 +34,11 @@
 	
 		<!-- // <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
 		<!-- // <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-		<script src="../wp-content/themes/isa14/js/jquery-1.10.2.min.js"></script>
-		<script src="../wp-content/themes/isa14/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="../wp-content/themes/isa14/js/foundation.min.js"></script>
-		<script src="../wp-content/themes/isa14/js/foundation.reveal.js"></script>
-		<script src="../wp-content/themes/isa14/js/custom-js.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.reveal.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/custom-js.js"></script>
 
 		<script>
 		   $(document).foundation();

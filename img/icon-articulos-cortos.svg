@@ -16,8 +16,8 @@
 	</g>
 	<path fill="none" d="M53.499,4.001c27.338,0,49.498,22.161,49.498,49.5S80.836,103,53.499,103c-27.339,0-49.5-22.161-49.5-49.499
 		S26.16,4.001,53.499,4.001L53.499,4.001z"/>
-	<path fill="#47627E" d="M53.499,4.001c27.338,0,49.498,22.161,49.498,49.5S80.836,103,53.499,103
-		c-27.339,0-49.5-22.161-49.5-49.499S26.16,4.001,53.499,4.001L53.499,4.001z"/>
+	<path fill="#47627E" d="M53.25,4.001c27.338,0,49.498,22.161,49.498,49.5S80.587,103,53.25,103c-27.339,0-49.5-22.161-49.5-49.499
+		S25.911,4.001,53.25,4.001L53.25,4.001z"/>
 	<g>
 		<g>
 			<defs>
@@ -89,45 +89,35 @@
 		</g>
 	</g>
 	<g>
-		
-			<image overflow="visible" opacity="0.47" enable-background="new    " width="54" height="63" xlink:href="353FB8BD961991E8.png"  transform="matrix(1 0 0 1 30.0474 22)">
-		</image>
-		<g>
-			<path fill="#ECEDED" d="M39.503,24.306h32.569c3.855,0,6.98,3.157,6.98,7.052v42.316c0,3.895-3.125,7.055-6.98,7.055H39.503
-				c-3.855,0-6.98-3.16-6.98-7.055V31.358C32.523,27.463,35.647,24.306,39.503,24.306L39.503,24.306z"/>
-		</g>
-	</g>
-	<g>
 		<g>
 			
-				<image overflow="visible" opacity="0.47" enable-background="new    " width="54" height="64" xlink:href="353FB8BD961991E9.png"  transform="matrix(1 0 0 1 25.0474 26)">
+				<image overflow="visible" opacity="0.47" enable-background="new    " width="54" height="64" xlink:href="946D486726C2398.png"  transform="matrix(1 0 0 1 26.249 23.5)">
 			</image>
 			<g>
-				<path fill="#FFFFFF" d="M74.529,40.819v37.445c0,3.896-3.127,7.053-6.979,7.053H34.978c-3.854,0-6.978-3.157-6.978-7.053V35.948
-					c0-3.896,3.124-7.054,6.978-7.054h27.754L74.529,40.819L74.529,40.819z"/>
+				<path fill="#FFFFFF" d="M75.73,38.319v37.444c0,3.896-3.127,7.053-6.979,7.053H36.18c-3.854,0-6.979-3.157-6.979-7.053V33.448
+					c0-3.896,3.124-7.054,6.979-7.054h27.754L75.73,38.319L75.73,38.319z"/>
 			</g>
 		</g>
 		<g>
 			<g>
 				<defs>
-					<path id="SVGID_11_" d="M47.954,47.582H36.087c-0.467,0-0.848-0.799-0.848-1.786c0-0.987,0.381-1.786,0.848-1.786h11.867
-						c0.469,0,0.848,0.799,0.848,1.786C48.802,46.782,48.423,47.582,47.954,47.582L47.954,47.582z M66.05,54.725H36.087
-						c-0.467,0-0.848-0.8-0.848-1.787s0.381-1.786,0.848-1.786H66.05c0.47,0,0.849,0.799,0.849,1.786S66.52,54.725,66.05,54.725
-						L66.05,54.725z M66.05,61.866H36.087c-0.467,0-0.848-0.802-0.848-1.786c0-0.987,0.381-1.786,0.848-1.786H66.05
-						c0.47,0,0.849,0.799,0.849,1.786C66.896,61.064,66.52,61.866,66.05,61.866L66.05,61.866z M66.05,69.008H36.087
-						c-0.467,0-0.848-0.801-0.848-1.788c0-0.983,0.381-1.782,0.848-1.782H66.05c0.47,0,0.849,0.799,0.849,1.782
-						C66.896,68.207,66.52,69.008,66.05,69.008L66.05,69.008z M58.023,76.148H36.087c-0.467,0-0.848-0.799-0.848-1.785
-						c0-0.984,0.381-1.786,0.848-1.786h21.938c0.469,0,0.848,0.801,0.848,1.786C58.872,75.35,58.493,76.148,58.023,76.148
-						L58.023,76.148z"/>
+					<path id="SVGID_11_" d="M49.155,45.082H37.288c-0.467,0-0.848-0.799-0.848-1.786c0-0.986,0.381-1.786,0.848-1.786h11.867
+						c0.469,0,0.849,0.8,0.849,1.786C50.003,44.282,49.624,45.082,49.155,45.082L49.155,45.082z M67.251,52.225H37.288
+						c-0.467,0-0.848-0.8-0.848-1.786c0-0.987,0.381-1.786,0.848-1.786h29.963c0.47,0,0.849,0.799,0.849,1.786
+						C68.1,51.425,67.721,52.225,67.251,52.225L67.251,52.225z M67.251,59.366H37.288c-0.467,0-0.848-0.802-0.848-1.786
+						c0-0.987,0.381-1.786,0.848-1.786h29.963c0.47,0,0.849,0.799,0.849,1.786C68.098,58.564,67.721,59.366,67.251,59.366
+						L67.251,59.366z M67.251,66.508H37.288c-0.467,0-0.848-0.801-0.848-1.788c0-0.983,0.381-1.782,0.848-1.782h29.963
+						c0.47,0,0.849,0.799,0.849,1.782C68.098,65.707,67.721,66.508,67.251,66.508L67.251,66.508z M59.225,73.648H37.288
+						c-0.467,0-0.848-0.799-0.848-1.785c0-0.984,0.381-1.786,0.848-1.786h21.938c0.469,0,0.848,0.801,0.848,1.786
+						C60.073,72.85,59.694,73.648,59.225,73.648L59.225,73.648z"/>
 				</defs>
-				<use xlink:href="#SVGID_11_"  overflow="visible" fill="#FCAB0F"/>
+				<use xlink:href="#SVGID_11_"  overflow="visible" fill="#4BB5B5"/>
 				<clipPath id="SVGID_12_">
 					<use xlink:href="#SVGID_11_"  overflow="visible"/>
 				</clipPath>
 			</g>
 		</g>
-		<path fill="#ECEDED" d="M74.529,41.825h-5.815c-3.854,0-6.979-3.157-6.979-7.052v-5.879h1.164l11.631,11.757V41.825L74.529,41.825
-			z"/>
+		<path fill="#ECEDED" d="M75.73,39.325h-5.815c-3.854,0-6.979-3.157-6.979-7.052v-5.879H64.1L75.73,38.151V39.325L75.73,39.325z"/>
 	</g>
 </g>
 <g id="icon_2" display="none">
@@ -192,7 +182,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_18_)">
 					
-						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="353FB8BD961991E8.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
+						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="946D486726C2399.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
 					</image>
 				</g>
 			</g>
@@ -208,7 +198,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_20_)">
 					
-						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="353FB8BD961991E8.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
+						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="946D486726C239F.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
 					</image>
 				</g>
 			</g>
@@ -224,7 +214,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_23_)">
 					
-						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="353FB8BD961991E8.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
+						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="946D486726C2399.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
 					</image>
 				</g>
 			</g>
@@ -240,7 +230,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_25_)">
 					
-						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="353FB8BD961991E8.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
+						<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="946D486726C239B.jpeg"  transform="matrix(0.9982 0 0 0.9988 -248 -670.4639)">
 					</image>
 				</g>
 			</g>
@@ -301,7 +291,7 @@
 	</g>
 	<g display="inline">
 		
-			<image overflow="visible" opacity="0.47" enable-background="new    " width="568" height="878" xlink:href="353FB8BD961991E7.png"  transform="matrix(1 0 0 1 -166.9526 -34)">
+			<image overflow="visible" opacity="0.47" enable-background="new    " width="568" height="878" xlink:href="946D486726C2397.png"  transform="matrix(1 0 0 1 -166.9526 -34)">
 		</image>
 		<g>
 			<g>
@@ -315,7 +305,7 @@
 					</clipPath>
 					<g clip-path="url(#SVGID_31_)">
 						
-							<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="353FB8BD961991F8.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+							<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="946D486726C23A7.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 						</image>
 					</g>
 				</g>
@@ -336,7 +326,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_33_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="353FB8BD961991F8.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="946D486726C23A9.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -354,7 +344,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_35_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216D7.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="946D486726C23AB.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -370,7 +360,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_37_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216D5.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12578.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -400,7 +390,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_43_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216D3.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12578.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -416,7 +406,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_45_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216ED.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12578.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -432,7 +422,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_47_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216EF.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12578.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -448,7 +438,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_50_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216ED.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12578.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -464,7 +454,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_52_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216F3.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12578.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -480,7 +470,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_54_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="B235B366B1B216F5.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
+					<image overflow="visible" enable-background="new    " width="562" height="872" xlink:href="573CB76E89A12568.jpeg"  transform="matrix(0.9982 0 0 0.9989 -163.999 -31.0596)">
 				</image>
 			</g>
 		</g>
@@ -550,7 +540,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_60_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="B235B366B1B216F7.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
+					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="573CB76E89A12568.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
 				</image>
 			</g>
 		</g>
@@ -566,7 +556,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_62_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="B235B366B1B216F5.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
+					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="573CB76E89A12568.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
 				</image>
 			</g>
 		</g>
@@ -582,7 +572,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_65_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="B235B366B1B21716.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
+					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="573CB76E89A12568.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
 				</image>
 			</g>
 		</g>
@@ -598,7 +588,7 @@
 			</clipPath>
 			<g clip-path="url(#SVGID_67_)">
 				
-					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="B235B366B1B21716.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
+					<image overflow="visible" enable-background="new    " width="562" height="851" xlink:href="573CB76E89A12583.jpeg"  transform="matrix(0.9982 0 0 0.9988 -267.998 -100.9502)">
 				</image>
 			</g>
 		</g>
@@ -671,7 +661,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_73_)">
 					
-						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="B235B366B1B21712.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
+						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="573CB76E89A1258D.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
 					</image>
 				</g>
 			</g>
@@ -687,7 +677,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_75_)">
 					
-						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="B235B366B1B21712.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
+						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="573CB76E89A1258F.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
 					</image>
 				</g>
 			</g>
@@ -703,7 +693,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_77_)">
 					
-						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="B235B366B1B2171E.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
+						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="573CB76E89A1258D.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
 					</image>
 				</g>
 			</g>
@@ -725,7 +715,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_79_)">
 					
-						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="B235B366B1B2171E.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
+						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="573CB76E89A12583.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
 					</image>
 				</g>
 			</g>
@@ -740,7 +730,7 @@
 				</clipPath>
 				<g clip-path="url(#SVGID_81_)">
 					
-						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="B235B366B1B21712.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
+						<image overflow="visible" enable-background="new    " width="39" height="89" xlink:href="573CB76E89A12585.jpeg"  transform="matrix(0.7362 -0.4282 0.4282 0.7362 23.2339 29.7388)">
 					</image>
 				</g>
 			</g>
